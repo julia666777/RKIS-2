@@ -4,12 +4,12 @@ public class UserInfo{
     public static void Main(string[] args){
         Console.WriteLine("Работу выполнили Чернова Юлия и Соловьев Иван 3833");
 
-        Console.WriteLine("Введите имя:");        
-        Console.WriteLine("Введите фамилию:");
-        Console.WriteLine("Введите год рождения:");
-
+        Console.WriteLine("Введите имя:");
         string firstName = Console.ReadLine();
+
+        Console.WriteLine("Введите фамилию:");
         string lastName = Console.ReadLine();
+        Console.WriteLine("Введите год рождения:");
         string birthYearString = Console.ReadLine();
 
         int birthYear;
